@@ -1,0 +1,15 @@
+    {
+      "name": "folia-botanica",
+      "version": "1.0.0",
+      "private": true,
+      "type": "module",
+      "scripts": {
+        "dev": "vite --host",
+        "build": "vite build",
+        "preview": "vite preview"
+      },
+      "devDependencies": {
+        "lucide": "^0.475.0",
+        "vite": "^6.2.0"
+      }
+    }

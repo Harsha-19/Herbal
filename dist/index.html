@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FOLIA BOTANICA — Refined Herbal Pharmacopeia & Apothecary</title>
+  <meta name="description" content="A luxury botanical environment translating classical Ayurvedic pharmacopeias and modern phytochemical research into bespoke herbal formulations." />
+  <meta name="theme-color" content="#F7F3EA" />
+
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <script type="module" crossorigin src="/assets/index-BgotzDa2.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CDZMqgWr.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="botanical-header" id="botanicalHeader">
+    <div class="nav-container">
+      <a href="#" class="brand-wrapper" id="brandLogo">
+        <div class="brand-logo-mark">
+          <!-- Elegant Leaf Monogram SVG -->
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+            <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+          </svg>
+        </div>
+        <div class="brand-text-block">
+          <span class="brand-title">Folia Botanica</span>
+          <span class="brand-subtitle">Pharmacopeia &bull; Est. 1894</span>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#herbarium" class="nav-link active">Herbarium</a></li>
+          <li><a href="#intelligenceDashboard" class="nav-link">Phytochemistry</a></li>
+          <li><a href="#formulationLab" class="nav-link">Formulation Lab</a></li>
+          <li><a href="#diagnosticConsult" class="nav-link">Dosha Consult</a></li>
+          <li><a href="#monographJournal" class="nav-link">Journal Archive</a></li>
+        </ul>
+      </nav>
+
+      <!-- Navigation Actions -->
+      <div class="nav-actions">
+        <!-- Ambient Soundscape Toggle -->
+        <button id="ambientSoundBtn" class="btn-icon" title="Toggle Botanical Nature Soundscape" aria-label="Toggle Nature Soundscape">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+            <path d="M11 5 6 9H2v6h4l5 4V5Z"/>
+            <path d="M15.54 8.46a5 5 0 0 1 0 7.07" id="audioWave1"/>
+            <path d="M19.07 4.93a10 10 0 0 1 0 14.14" id="audioWave2"/>
+          </svg>
+        </button>
+
+        <!-- Search Trigger -->
+        <button id="navSearchBtn" class="btn-icon" title="Search Botanicals (Press '/')" aria-label="Search Archives">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="m21 21-4.3-4.3"/>
+          </svg>
+        </button>
+
+        <!-- Apothecary Tray Trigger -->
+        <button id="navTrayBtn" class="btn-icon" title="View Saved Apothecary Formulations" aria-label="Saved Formulations">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/>
+            <path d="M3 6h18"/>
+            <path d="M16 10a4 4 0 0 1-8 0"/>
+          </svg>
+          <span class="badge-counter" id="navTrayCount">0</span>
+        </button>
+
+        <a href="#diagnosticConsult" class="btn-botanical-primary" style="padding:0.6rem 1.25rem; font-size:0.8rem;">
+          Take Consult
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Editorial Section -->
+  <section class="hero-section">
+    <div class="container-botanical">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow">01 — Ethnobotanical Pharmacopeia</span>
+          <h1 class="hero-heading">
+            Nature, <em>refined</em> by science and ritual.
+          </h1>
+          <p class="hero-lead">
+            Where classical Ayurvedic wisdom converges with chromatographic analysis. Explore verified botanicals, decipher active phytomolecules, and handcraft personalized therapeutic elixirs on a foundation of warm ivory and living soil.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#herbarium" class="btn-botanical-primary">
+              Explore Living Herbarium
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+            </a>
+            <a href="#formulationLab" class="btn-botanical-secondary">
+              Enter Formulation Lab
+            </a>
+          </div>
+
+          <div class="hero-stats-row">
+            <div class="stat-item">
+              <span class="stat-number">12</span>
+              <span class="stat-label">Wildcrafted Species</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">48</span>
+              <span class="stat-label">Active Phytomolecules</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Biodynamic Sourced</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-media-wrapper">
+          <div class="hero-image-frame">
+            <img src="/images/hero.jpg" alt="Botanical Still Life with Amber Bottles and Dried Roots" />
+          </div>
+
+          <div class="hero-botanical-card-overlay">
+            <div class="overlay-herb-header">
+              <span class="botanical-tag">Spotlight Specimen</span>
+              <span style="font-size:0.75rem; color:var(--accent-moss); font-weight:600;">94% Potency</span>
+            </div>
+            <div class="overlay-herb-name">Withania somnifera</div>
+            <div class="overlay-herb-latin">Royal Ashwagandha &bull; Vata-Kapha</div>
+            <p style="font-size:0.8rem; line-height:1.5; color:var(--text-secondary); margin-bottom:0.75rem;">
+              Standardized withanolides acting upon corticosteroid receptors for deep somatic restoration.
+            </p>
+            <a href="#herbarium" class="link-monograph" id="heroSpotlightLink" style="font-size:0.76rem;">
+              Open Monograph &rarr;
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Herbarium / Plant Encyclopedia -->
+  <section class="herbarium-section" id="herbarium">
+    <div class="container-botanical">
+      <div class="section-editorial-header">
+        <div>
+          <span class="eyebrow">02 — The Living Herbarium</span>
+          <h2 class="section-editorial-title">Botanical Taxonomy & Archives</h2>
+        </div>
+        <p class="section-editorial-desc">
+          Browse comprehensive clinical profiles of wildcrafted medicinal species, cataloged with Sanskrit nomenclature, constitutional energetics (Dravyaguna), and verified active markers.
+        </p>
+      </div>
+
+      <!-- Controls & Filter Bar -->
+      <div class="herbarium-controls">
+        <div class="controls-row-top">
+          <!-- Live Search Bar -->
+          <div class="search-input-wrapper">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+              <circle cx="11" cy="11" r="8"/>
+              <path d="m21 21-4.3-4.3"/>
+            </svg>
+            <input type="text" id="herbSearchInput" class="botanical-input" placeholder="Search by plant name, Latin binomial, or active compound..." />
+          </div>
+
+          <!-- View Switcher -->
+          <div class="view-toggle-group">
+            <button id="viewGridBtn" class="btn-view-toggle active" title="Editorial Card Grid">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/></svg>
+              Grid
+            </button>
+            <button id="viewTableBtn" class="btn-view-toggle" title="Archival Index Table">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="18" y2="18"/></svg>
+              Table
+            </button>
+          </div>
+        </div>
+
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;">
+          <!-- Therapeutic Category Filters -->
+          <div class="filter-categories-pills" id="categoryFilters">
+            <span class="filter-label-inline">Class:</span>
+            <button class="btn-botanical-pill active" data-cat="all">All Species</button>
+            <button class="btn-botanical-pill" data-cat="adaptogen">Adaptogens</button>
+            <button class="btn-botanical-pill" data-cat="nervine">Nervines</button>
+            <button class="btn-botanical-pill" data-cat="rasayana">Rasayanas</button>
+            <button class="btn-botanical-pill" data-cat="cellular defence">Cellular Defence</button>
+            <button class="btn-botanical-pill" data-cat="digestif">Digestifs</button>
+          </div>
+
+          <!-- Dosha Filters -->
+          <div class="filter-categories-pills" id="doshaFilters">
+            <span class="filter-label-inline">Dosha:</span>
+            <button class="btn-botanical-pill active" data-dosha="all">All</button>
+            <button class="btn-botanical-pill" data-dosha="tridoshic">Tridoshic</button>
+            <button class="btn-botanical-pill" data-dosha="vata">Vata</button>
+            <button class="btn-botanical-pill" data-dosha="pitta">Pitta</button>
+            <button class="btn-botanical-pill" data-dosha="kapha">Kapha</button>
+          </div>
+        </div>
+
+        <div style="display:flex; justify-content:flex-end; font-size:0.75rem; color:var(--text-muted);" id="herbResultsCount">
+          Cataloging specimens...
+        </div>
+      </div>
+
+      <!-- Main Herbarium Content (Grid or Table) -->
+      <div id="herbariumContent" class="herbarium-grid">
+        <!-- Populated via herbarium.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Botanical Intelligence & Research Dashboard -->
+  <section class="dashboard-section" id="intelligenceDashboard">
+    <div class="container-botanical">
+      <div class="section-editorial-header">
+        <div>
+          <span class="eyebrow">03 — Botanical Intelligence</span>
+          <h2 class="section-editorial-title">Phytochemical Matrix & Research Feed</h2>
+        </div>
+        <p class="section-editorial-desc">
+          Restrained empirical telemetry: monitoring extraction bio-availability ratios, symbiotic pairing indices, and regenerative seasonal harvest cycles.
+        </p>
+      </div>
+
+      <!-- 4 High-End Metric Cards -->
+      <div class="dashboard-hero-bar">
+        <div class="dashboard-stat-card">
+          <div class="stat-header-subtle">
+            <span class="botanical-label" style="margin:0;">Synergy Quotient</span>
+            <div class="stat-icon-wrap">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m10 15 5-3-5-3v6Z"/></svg>
+            </div>
+          </div>
+          <div class="stat-big-val">96.4%</div>
+          <div class="stat-subtext">Cross-phytochemical absorption multiplier</div>
+        </div>
+
+        <div class="dashboard-stat-card">
+          <div class="stat-header-subtle">
+            <span class="botanical-label" style="margin:0;">Standardized Markers</span>
+            <div class="stat-icon-wrap">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/></svg>
+            </div>
+          </div>
+          <div class="stat-big-val">48</div>
+          <div class="stat-subtext">Active withanolides, bacosides & rosmarinic acids</div>
+        </div>
+
+        <div class="dashboard-stat-card">
+          <div class="stat-header-subtle">
+            <span class="botanical-label" style="margin:0;">Soil Biodynamics</span>
+            <div class="stat-icon-wrap">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+          </div>
+          <div class="stat-big-val">98.2%</div>
+          <div class="stat-subtext">Regenerative humus content & non-depleted soils</div>
+        </div>
+
+        <div class="dashboard-stat-card">
+          <div class="stat-header-subtle">
+            <span class="botanical-label" style="margin:0;">Clinical Correlation</span>
+            <div class="stat-icon-wrap">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+          </div>
+          <div class="stat-big-val">100%</div>
+          <div class="stat-subtext">Peer-reviewed ethnobotanical trial backing</div>
+        </div>
+      </div>
+
+      <!-- Split Dashboard Panels -->
+      <div class="dashboard-main-grid">
+        <!-- Left: Synergy Matrix List -->
+        <div class="panel-ivory">
+          <div class="panel-header-editorial">
+            <div>
+              <span class="eyebrow" style="margin-bottom:0.2rem;">Phytochemical Interactions</span>
+              <h3 class="panel-title">Botanical Synergy Matrix</h3>
+            </div>
+            <span class="botanical-tag">Co-Administration Pairs</span>
+          </div>
+          <p style="font-size:0.88rem; color:var(--text-secondary); margin-bottom:1.4rem;">
+            Classical texts teach <em>Samyoga</em>: combining distinct botanicals creates emergent properties unattainable in singular isolation.
+          </p>
+
+          <div class="synergy-pair-list" id="dashboardSynergyList">
+            <!-- Populated via dashboard.js -->
+          </div>
+        </div>
+
+        <!-- Right: Seasonal Harvest & Bioavailability Graph -->
+        <div style="display:flex; flex-direction:column; gap:2rem;">
+          <div class="panel-ivory">
+            <div class="panel-header-editorial">
+              <div>
+                <span class="eyebrow" style="margin-bottom:0.2rem;">Circadian & Solar Cycles</span>
+                <h3 class="panel-title">Harvest Chronology</h3>
+              </div>
+            </div>
+            <div class="harvest-timeline-grid" id="dashboardHarvestTimeline">
+              <!-- Populated via dashboard.js -->
+            </div>
+          </div>
+
+          <div class="panel-ivory">
+            <div class="panel-header-editorial">
+              <div>
+                <span class="eyebrow" style="margin-bottom:0.2rem;">Pharmacokinetics</span>
+                <h3 class="panel-title">Extraction Efficiency</h3>
+              </div>
+            </div>
+            <div id="dashboardExtractionChart">
+              <!-- Populated via dashboard.js -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Formulation Lab (Bespoke Herbal Apothecary) -->
+  <section class="formulation-section" id="formulationLab">
+    <div class="container-botanical">
+      <div class="section-editorial-header">
+        <div>
+          <span class="eyebrow">04 — Bespoke Apothecary</span>
+          <h2 class="section-editorial-title">The Formulation Atelier</h2>
+        </div>
+        <p class="section-editorial-desc">
+          Compound your personal restorative elixir. Select an extraction carrier matrix, integrate synergistic botanicals, and observe real-time thermal potency and dosha balancing.
+        </p>
+      </div>
+
+      <div class="lab-grid">
+        <!-- Lab Steps -->
+        <div class="lab-steps-container">
+          <!-- Step 1: Base Carrier -->
+          <div class="lab-step-card">
+            <span class="step-num-eyebrow">Stage 01 &bull; Carrier Matrix</span>
+            <h3 style="font-family: var(--font-serif); font-size: 1.45rem; color: var(--botanical-deep);">
+              Select Vehicle (Anupana)
+            </h3>
+            <p style="font-size: 0.88rem; color: var(--text-secondary);">
+              The carrier vehicle governs cellular tissue penetration, crossing physiological membranes and directing active alkaloids to target organs.
+            </p>
+
+            <div class="carrier-options-grid" id="carrierOptionsGrid">
+              <!-- Populated via formulationLab.js -->
+            </div>
+          </div>
+
+          <!-- Step 2: Botanical Synergists -->
+          <div class="lab-step-card">
+            <span class="step-num-eyebrow">Stage 02 &bull; Active Botanicals</span>
+            <h3 style="font-family: var(--font-serif); font-size: 1.45rem; color: var(--botanical-deep);">
+              Integrate Synergists (Up to 4 Species)
+            </h3>
+            <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 1.2rem;">
+              Adjust individual concentration percentages to craft harmonic balance.
+            </p>
+
+            <div style="display:flex; gap:0.8rem; flex-wrap:wrap;">
+              <select id="labHerbSelect" class="botanical-input" style="flex:1; min-width:240px;">
+                <!-- Populated dynamically -->
+              </select>
+              <button id="labAddHerbBtn" class="btn-botanical-primary" style="padding:0.75rem 1.4rem;">
+                + Add Specimen
+              </button>
+            </div>
+
+            <div class="selected-herbs-lab-list" id="selectedHerbsList">
+              <!-- Sliders populated dynamically -->
+            </div>
+          </div>
+
+          <!-- Step 3: Formulation Notes -->
+          <div class="lab-step-card">
+            <span class="step-num-eyebrow">Stage 03 &bull; Inscription</span>
+            <h3 style="font-family: var(--font-serif); font-size: 1.45rem; color: var(--botanical-deep); margin-bottom: 1rem;">
+              Apothecary Inscription & Label
+            </h3>
+
+            <div style="display:flex; flex-direction:column; gap:1.2rem;">
+              <div>
+                <label class="botanical-label">Custom Formulation Name</label>
+                <input type="text" id="formulaTitleInput" class="botanical-input" value="Restorative Soma Rasayana" />
+              </div>
+
+              <div>
+                <label class="botanical-label">Clinical / Energetic Notes</label>
+                <textarea id="formulaNotesInput" class="botanical-input" rows="2" placeholder="e.g. Prescribed for twilight administration with warm oat milk and raw honey to pacify aggravated Vata..."></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Vintage Apothecary Label Output Preview -->
+        <div class="apothecary-label-preview-panel">
+          <div class="vintage-label-inner" id="printableApothecaryLabel">
+            <div class="label-top-brand">FOLIA BOTANICA &bull; APOTHECARY ARCHIVE</div>
+            <div class="label-main-title" id="previewFormulaTitle">Restorative Soma Rasayana</div>
+            <div class="label-sub-text" id="previewCarrierName">Carrier Matrix: Cold-Pressed Golden Sesame Oil</div>
+
+            <div class="label-details-grid">
+              <div class="label-detail-cell">
+                <strong>Batch Archive</strong>
+                <span id="previewBatchNumber">FB-8492-ORG</span>
+              </div>
+              <div class="label-detail-cell">
+                <strong>Compound Date</strong>
+                <span id="previewDateStr">Autumn Equinox</span>
+              </div>
+              <div class="label-detail-cell">
+                <strong>Thermal Potency</strong>
+                <span id="previewViryaTag">Ushna (Warming)</span>
+              </div>
+              <div class="label-detail-cell">
+                <strong>Synergy Rating</strong>
+                <span id="previewSynergyScore">96/100 (+18%)</span>
+              </div>
+            </div>
+
+            <!-- Constituents -->
+            <div style="text-align:left; margin-bottom:1.4rem;">
+              <span class="botanical-label">Botanical Constituents</span>
+              <div id="previewIngredientsList" style="font-size:0.84rem; color:var(--text-secondary); display:flex; flex-direction:column;">
+                <!-- Populated dynamically -->
+              </div>
+            </div>
+
+            <!-- Authentic Seal Details -->
+            <div style="padding-top:1rem; border-top:1px dashed var(--border-medium); font-size:0.72rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.1em; display:flex; justify-content:space-between;">
+              <span>Certified Biodynamic</span>
+              <span>Zero Synthetics</span>
+            </div>
+          </div>
+
+          <!-- Label Actions -->
+          <div class="label-actions">
+            <button id="saveFormulaBtn" class="btn-botanical-primary" style="width:100%;">
+              Commit to Apothecary Tray
+            </button>
+            <button id="printFormulaBtn" class="btn-botanical-secondary" style="width:100%;">
+              Print / Export Apothecary Label
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dosha & Symptom Diagnostic Consult -->
+  <section class="consult-section" id="diagnosticConsult">
+    <div class="container-botanical">
+      <div class="section-editorial-header" style="text-align:center; flex-direction:column; align-items:center;">
+        <span class="eyebrow">05 — Constitutional Inquiry</span>
+        <h2 class="section-editorial-title" style="text-align:center;">Interactive Dosha & Symptom Consult</h2>
+        <p class="section-editorial-desc" style="text-align:center; max-width:620px;">
+          Determine your energetic constitution (Prakriti) and current somatic imbalance (Vikriti) to receive a customized daily botanical ritual (Dinacharya).
+        </p>
+      </div>
+
+      <div class="consult-card-wrapper" id="consultQuizContainer">
+        <!-- Rendered dynamically by consultQuiz.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Editorial Monograph Journal & Essays -->
+  <section class="journal-section" id="monographJournal">
+    <div class="container-botanical">
+      <div class="section-editorial-header">
+        <div>
+          <span class="eyebrow">06 — Ethnobotanical Journal</span>
+          <h2 class="section-editorial-title">Essays, Field Notes & Monographs</h2>
+        </div>
+        <p class="section-editorial-desc">
+          Longform investigations exploring historical pharmacopeias, phytochemical pharmacology, and sustainable wildcrafting practices.
+        </p>
+      </div>
+
+      <div class="articles-grid">
+        <!-- Article 1 -->
+        <article class="article-card" data-article-id="art-1">
+          <div class="article-meta-row">
+            <span>Phytochemistry</span>
+            <span>7 min read</span>
+          </div>
+          <h3 class="article-title">The Architecture of Adaptogens: Decoding Withania somnifera</h3>
+          <p class="article-excerpt">
+            High-resolution chromatography reveals how Withanolides cross biological membranes to modulate corticosteroid receptors with surgical elegance.
+          </p>
+          <div style="margin-top:auto; display:flex; justify-content:space-between; align-items:center;">
+            <span style="font-size:0.75rem; color:var(--text-muted);">Dr. Evelyn Varma, PhD</span>
+            <button class="btn-botanical-secondary btn-read-article" data-article-id="art-1" style="font-size:0.75rem; padding:0.4rem 0.8rem;">
+              Read Monograph &rarr;
+            </button>
+          </div>
+        </article>
+
+        <!-- Article 2 -->
+        <article class="article-card" data-article-id="art-2">
+          <div class="article-meta-row">
+            <span>Philosophy & Science</span>
+            <span>9 min read</span>
+          </div>
+          <h3 class="article-title">Rasa, Virya, Vipaka: The Tripartite Energetic Doctrine</h3>
+          <p class="article-excerpt">
+            How traditional sensory diagnostics prefigured contemporary metabolic pharmacology, mapping bitter receptors to cellular detoxification pathways.
+          </p>
+          <div style="margin-top:auto; display:flex; justify-content:space-between; align-items:center;">
+            <span style="font-size:0.75rem; color:var(--text-muted);">Acharya R. Shastri</span>
+            <button class="btn-botanical-secondary btn-read-article" data-article-id="art-2" style="font-size:0.75rem; padding:0.4rem 0.8rem;">
+              Read Monograph &rarr;
+            </button>
+          </div>
+        </article>
+
+        <!-- Article 3 -->
+        <article class="article-card" data-article-id="art-3">
+          <div class="article-meta-row">
+            <span>Ecology & Ethnobotany</span>
+            <span>6 min read</span>
+          </div>
+          <h3 class="article-title">The Lost Wildcrafting Protocols of the Western Ghats</h3>
+          <p class="article-excerpt">
+            The traditional Rule of Thirds: preserving pollinator balance, perpetual seed lineages, and lunar harvesting chronology for peak subterranean potency.
+          </p>
+          <div style="margin-top:auto; display:flex; justify-content:space-between; align-items:center;">
+            <span style="font-size:0.75rem; color:var(--text-muted);">Nilgiri Collective</span>
+            <button class="btn-botanical-secondary btn-read-article" data-article-id="art-3" style="font-size:0.75rem; padding:0.4rem 0.8rem;">
+              Read Monograph &rarr;
+            </button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ethical Sourcing & Ecological Standards -->
+  <section style="padding: 5rem 0; background-color: var(--ivory-subtle); border-top: 1px solid var(--border-subtle);">
+    <div class="container-botanical">
+      <div style="display:grid; grid-template-columns: 0.9fr 1.1fr; gap: 3.5rem; align-items: center;">
+        <div style="border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border-subtle);">
+          <img src="/images/garden.jpg" alt="Biodynamic terraced herbal gardens in morning mist" style="width:100%; height:380px; object-fit:cover; display:block;" />
+        </div>
+        <div>
+          <span class="eyebrow">07 — Ecological Custodianship</span>
+          <h2 style="font-family: var(--font-serif); font-size: clamp(2rem, 3.2vw, 2.7rem); color: var(--botanical-deep); margin-bottom: 1.2rem;">
+            Rooted in Soil Integrity & Fair-Trade Wildcrafting
+          </h2>
+          <p style="font-size: 0.94rem; line-height: 1.7; color: var(--text-secondary); margin-bottom: 1.4rem;">
+            Every rhizome, floret, and seed in our pharmacopeia is cultivated without synthetic fertilizers, pesticides, or monocultural exploitation. We partner exclusively with smallholder cooperative growers in the Western Ghats, Sub-Himalayan valleys, and Mediterranean hills.
+          </p>
+          <div style="display:flex; gap:1.8rem; flex-wrap:wrap;">
+            <div>
+              <strong style="display:block; font-size:1.15rem; font-family:var(--font-serif); color:var(--botanical-deep);">Demeter Certified</strong>
+              <span style="font-size:0.78rem; color:var(--text-muted);">Biodynamic agricultural cycle</span>
+            </div>
+            <div>
+              <strong style="display:block; font-size:1.15rem; font-family:var(--font-serif); color:var(--botanical-deep);">Zero Heavy Metals</strong>
+              <span style="font-size:0.78rem; color:var(--text-muted);">Inductively coupled plasma MS verified</span>
+            </div>
+            <div>
+              <strong style="display:block; font-size:1.15rem; font-family:var(--font-serif); color:var(--botanical-deep);">Living Wages</strong>
+              <span style="font-size:0.78rem; color:var(--text-muted);">100% fair-trade gatherer equity</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Refined Botanical Footer -->
+  <footer class="botanical-footer">
+    <div class="container-botanical">
+      <div class="footer-top-grid">
+        <div>
+          <div class="brand-wrapper" style="margin-bottom: 1rem;">
+            <div class="brand-logo-mark">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+            </div>
+            <div class="brand-text-block">
+              <span class="brand-title" style="font-size: 1.25rem;">Folia Botanica</span>
+              <span class="brand-subtitle">Pharmacopeia &bull; Est. 1894</span>
+            </div>
+          </div>
+          <p class="footer-brand-bio">
+            Translating five millennia of classical Ayurvedic pharmacopeia into modern phytochemical precision. Minimalist luxury, organic integrity, and refined human craftsmanship.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">The Pharmacopeia</h4>
+          <ul class="footer-links-list">
+            <li><a href="#herbarium" class="footer-link">Plant Encyclopedia</a></li>
+            <li><a href="#intelligenceDashboard" class="footer-link">Synergy Matrix</a></li>
+            <li><a href="#intelligenceDashboard" class="footer-link">Extraction Science</a></li>
+            <li><a href="#herbarium" class="footer-link">Dravyaguna Energetics</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">The Apothecary</h4>
+          <ul class="footer-links-list">
+            <li><a href="#formulationLab" class="footer-link">Bespoke Elixir Lab</a></li>
+            <li><a href="#diagnosticConsult" class="footer-link">Dosha Diagnostic</a></li>
+            <li><a href="#formulationLab" class="footer-link">Extraction Carriers</a></li>
+            <li><a href="#monographJournal" class="footer-link">Monograph Archives</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Field Gazettes</h4>
+          <p style="font-size:0.84rem; line-height:1.6; color:var(--text-secondary); margin-bottom:1rem;">
+            Receive our seasonal Solstice and Equinox monographs detailing harvest calendars and wildcrafting field notes.
+          </p>
+          <form onsubmit="event.preventDefault(); alert('Thank you for subscribing to the Folia Botanica Seasonal Gazette.');" style="display:flex; flex-direction:column; gap:0.6rem;">
+            <input type="email" class="botanical-input" placeholder="Your email address..." required style="padding:0.65rem 0.9rem; font-size:0.82rem;" />
+            <button type="submit" class="btn-botanical-primary" style="padding:0.65rem 1rem; font-size:0.8rem;">
+              Subscribe to Gazette
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div>
+          &copy; 2026 Folia Botanica Pharmacopeia &bull; All Rights Reserved &bull; Nature, Refined.
+        </div>
+        <div style="display:flex; gap:1.5rem;">
+          <a href="#" class="footer-link">Ethnobotanical Ethics</a>
+          <a href="#" class="footer-link">Pharmacopeia Methodology</a>
+          <a href="#" class="footer-link">Privacy Sanctuary</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-Out Monograph Drawer -->
+  <div class="botanical-drawer-overlay" id="drawerOverlay">
+    <div class="botanical-drawer" id="botanicalDrawer">
+      <div class="drawer-header">
+        <div id="drawerTitle"></div>
+        <button id="drawerCloseBtn" class="btn-icon" aria-label="Close Monograph">&times;</button>
+      </div>
+      <div class="drawer-content" id="drawerBody"></div>
+    </div>
+  </div>
+
+  <!-- Apothecary Tray Drawer -->
+  <div class="botanical-drawer-overlay" id="trayOverlay">
+    <div class="botanical-drawer" style="max-width:520px;">
+      <div class="drawer-header">
+        <div>
+          <span class="eyebrow" style="margin-bottom:0.2rem;">Your Saved Preparations</span>
+          <h3 style="font-family: var(--font-serif); font-size:1.5rem; color:var(--botanical-deep);">Apothecary Tray</h3>
+        </div>
+        <button id="trayCloseBtn" class="btn-icon" aria-label="Close Tray">&times;</button>
+      </div>
+      <div class="drawer-content" id="trayBody"></div>
+    </div>
+  </div>
+
+  <!-- Global Search Modal (Press '/') -->
+  <div class="search-modal-backdrop" id="searchModalBackdrop">
+    <div class="search-modal-window">
+      <div class="search-modal-header">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+          <circle cx="11" cy="11" r="8"/>
+          <path d="m21 21-4.3-4.3"/>
+        </svg>
+        <input type="text" id="searchModalInput" class="botanical-input" style="border:none; box-shadow:none; padding:0; font-size:1rem; background:transparent;" placeholder="Search species, active compounds, Sanskrit names, or monographs..." />
+        <button id="searchModalCloseBtn" class="btn-icon" style="border:none;" aria-label="Close Search">&times;</button>
+      </div>
+      <div class="search-modal-results" id="searchModalResults"></div>
+    </div>
+  </div>
+
+</body>
+</html>
